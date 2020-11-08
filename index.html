@@ -29,6 +29,9 @@
 				background-image:
 				url('header_y_fondo/fondoHeader.png');
 			}
+			header img {
+				transition:transform 0.5s;
+			}
 			header img:hover {
 				transform:scale(1.2,1.2);
 			}
@@ -53,6 +56,7 @@
 				letter-spacing:1px;
 				position:relative;
 				display:inline-block;
+				transition:font-size 0.5s;
 			}
 			nav a:hover {
 				font-size:17px;
@@ -116,7 +120,8 @@
 				width:800px;
 				height:100%;
 				background-color:#f1f1f1;
-				justify-content: left;
+				text-align: justify;
+				justify-content: justify;
 				font-size:20px;
 			}
 			main p {
@@ -133,18 +138,30 @@
 			footer {
 				padding:20px;
 				margin:auto;
-				align-items: center;
 				width:800px;
 				height:50px;
 				background-color:#f1f1f1;
-				justify-content: left;
 				display: flex;
+			}
+			footer p {
+				padding-left:15px;
+				position: relative;
+				transition:transform 0.5s;
+			}
+			footer p:hover {
+				transform:scale(1.2,1.2);
+			}
+			footer img {
+				transition:transform 0.5s;
+			}
+			footer img:hover {
+				transform:scale(1.2,1.2);
 			}
 		</style>
 	</head>
 	<body>
 		<header>
-			<img src="header_y_fondo/logo.png" width="362" height="200">
+			<a href="index.html"><img src="header_y_fondo/logo.png" width="362" height="200"></a>
 		</header>
 		<nav>
 			<a style="margin-right:10px;" class="BotonNav" href="index.html">Sobre Nosotros</a>
@@ -165,6 +182,8 @@
 		</main>
 		<footer>
 		<a title="Twitch" href="http://www.twitch.tv/justaplayer_tex"><img src="https://pngimg.com/uploads/twitch/twitch_PNG48.png" height="20px" width="20px" alt="Los Tejos" /></a>
+		<p><br> </p>
+		<p>Gracias A Federico UwU por aiudar xD</p>
 		</footer>
 	</body>
 </html>
