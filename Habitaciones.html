@@ -159,21 +159,28 @@
 				border: 1px solid black;
 			}
 			footer {
+				border-top: 3px solid black;
+				border-bottom: 3px solid black;
 				padding:20px;
 				margin:auto;
-				align-items: center;
 				width:800px;
-				height:50px;
+				height:100%;
 				background-color:#f1f1f1;
-				justify-content: left;
-				display: flex;
-				text-align: justify;
+				align-items: center;
+				justify-content: center;
 			}
 			footer img {
 				transition:transform 0.5s;
 			}
 			footer img:hover {
 				transform:scale(1.2,1.2);
+			}
+			footer a {
+				color:black;
+				text-decoration:none;
+			}
+			footer img.centro {
+				vertical-align: middle;
 			}
 		</style>
 	</head>
@@ -343,9 +350,22 @@
 				</dd>
 					<br>
 			</dl>
+			<br>
 		</main>
 		<footer>
-		<a title="Twitch" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img src="https://pngimg.com/uploads/twitch/twitch_PNG48.png" height="20px" width="20px" alt="Los Tejos" /></a>
+		<div class="footer">
+		<div class="titulofooter">
+		<center><h2>Contacto</h2></center>
+		</div>
+		<div class="contacto" style="vertical-align:middle;">
+		<center>
+		<a title="Whatsapp" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img class="centro" style="margin-right:10px;margin-left:10px;" src="redes/whatsapp.png" height="40px" width="40px" alt="Whatsapp"/>+598 93  123 123</a>
+		<a title="Instagram" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img class="centro" style="margin-right:10px;margin-left:10px;" src="redes/instagram.png" height="40px" width="40px" alt="Instagram"/>@GUAU_HotelCanino</a>
+		<a title="Facebook" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img class="centro" style="margin-right:10px;margin-left:10px;" src="redes/facebook.png" height="40px" width="40px" alt="Facebook"/>El Hotel Perrón</a>
+		<a title="Gmail" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img class="centro" style="margin-right:10px;margin-left:10px;" src="redes/gmail.png" height="40px" width="40px" alt="Los Tejos" />hotelguau@gmail.com</a>
+		</center>
+		</div>
+		</div>
 		</footer>
 	</body>
 </html>

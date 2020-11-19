@@ -135,18 +135,28 @@
 				text-align:center;
 			}
 			footer {
+				border-top: 3px solid black;
+				border-bottom: 3px solid black;
 				padding:20px;
 				margin:auto;
 				width:800px;
-				height:50px;
+				height:100%;
 				background-color:#f1f1f1;
-				display: flex;
+				align-items: center;
+				justify-content: center;
 			}
 			footer img {
 				transition:transform 0.5s;
 			}
 			footer img:hover {
 				transform:scale(1.2,1.2);
+			}
+			footer a {
+				color:black;
+				text-decoration:none;
+			}
+			footer img.centro {
+				vertical-align: middle;
 			}
 		</style>
 	</head>
@@ -170,11 +180,22 @@
 			<p><strong>O</strong>frecemos un nuevo concepto de residencia canina. Sobre todo un trato con el perro muy familiar, lo que queremos realmente, es que mientras usted se encuentre fuera, su perro se sienta lo mejor posible. Intentamos que para él sea como ir de paseo, pueda relacionarse con otros perros, correr y jugar, o simplemente mimarlo tanto como él nos lo permita.</p>
 			<p><strong>N</strong>uestras instalaciones son modernas y adaptadas a los nuevos tiempos, para dar un confort y bienestar inmejorable a su mascota. Contamos con piscinas exclusivas para mascotas. También un servicio de retiro y entrega a domicilio de mascotas con vehículos totalmente adaptados, servicio de WebCam para ver su perro desde dispositivos móviles Android y Apple, a cargo de la empresa <b>SVL GROUP®</b>, que ya se encuentra en funcionamiento con excelentes resultados.</p>
 			<p><strong>A</strong>brimos nuestras puertas hace tan solo tres meses, por lo que aún nos estamos ajustando a todo nuestro potencial.</p>
+			<br>
 		</main>
-		<footer>
-		<a title="Twitch" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img src="https://pngimg.com/uploads/twitch/twitch_PNG48.png" height="20px" width="20px" alt="Los Tejos" /></a>
-		<br>
-		<p>Gracias A Federico UwU por aiudar xD</p>
+	<footer>
+		<div class="footer">
+		<div class="titulofooter">
+		<center><h2>Contacto</h2></center>
+		</div>
+		<div class="contacto" style="vertical-align:middle;">
+		<center>
+		<a title="Whatsapp" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img class="centro" style="margin-right:10px;margin-left:10px;" src="redes/whatsapp.png" height="40px" width="40px" alt="Whatsapp"/>+598 93  123 123</a>
+		<a title="Instagram" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img class="centro" style="margin-right:10px;margin-left:10px;" src="redes/instagram.png" height="40px" width="40px" alt="Instagram"/>@GUAU_HotelCanino</a>
+		<a title="Facebook" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img class="centro" style="margin-right:10px;margin-left:10px;" src="redes/facebook.png" height="40px" width="40px" alt="Facebook"/>El Hotel Perrón</a>
+		<a title="Gmail" href="http://www.twitch.tv/justaplayer_tex" target="_blank"><img class="centro" style="margin-right:10px;margin-left:10px;" src="redes/gmail.png" height="40px" width="40px" alt="Los Tejos" />hotelguau@gmail.com</a>
+		</center>
+		</div>
+		</div>
 		</footer>
 	</body>
 </html>
